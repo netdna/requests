@@ -37,10 +37,10 @@ if is_py2:
 else:
     packages.append('requests.packages.chardet2')
 
-requires = []
+requires = ['requests']
 
 setup(
-    name='requests',
+    name='requests_netdna',
     version=requests.__version__,
     description='Python HTTP for Humans.',
     long_description=open('README.rst').read() + '\n\n' +
